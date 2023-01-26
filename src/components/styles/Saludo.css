@@ -1,0 +1,21 @@
+.header {
+    position: absolute;
+    width: 100%;
+}
+
+.header-container {
+    display: grid;
+    grid-template: 1fr 1fr;
+    align-items: center;
+    padding: 5px;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1000;
+}
+
+.logo-container {
+    grid-column: 1 / span 2;
+    grid-row: first-line / 1;
+    padding-top: 3px;
+    cursor: pointer;
+}
